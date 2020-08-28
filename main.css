@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),
+              url("./assets/bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%
+}
+
+.heading {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.heading span {
+  color: #39A26D;
+}
+
+.button-group{
+  align-self: center;
+}
+
+.button {
+  padding: 1.5rem 3rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  background: transparent;         
+  border: 0.5rem solid #39A26D;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
